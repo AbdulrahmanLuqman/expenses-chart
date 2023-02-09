@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    background-color: ;
+} */
+.circle1{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    z-index: 1000;
+}
+.circle2{
+    width: 50px;
+    height:50px;
+    background-color: hsl(25, 47%, 15%);
+    border-radius: 50%;
+    border: 1px solid hsl(25, 47%, 15%);
+    margin-left: -20px;
+
+}
+.both-circle{
+    display: flex;
+}
+.text{
+    font-size: 25px;
+    color: white;
+}
+.num{
+    font-size: 45px;
+    color: white;
+}
+.inner-div{
+    display: flex;
+    gap: 120px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+.top-div{
+    width: 500px;
+    height: 150px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 20px;
+}
+.sec-div{
+    width: 500px;
+    height: 450px;
+    background-color: hsl(27, 66%, 92%);
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.spend{
+    font-size: 2rem;
+    padding-top: 1.2rem;
+    padding-left: 1.6rem;
+}
+.bar1{
+    width: 55px;
+    height: 55px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 11px;
+}
+.bar2{
+    width: 55px;
+    height: 90px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 11px;
+    margin-top: -2rem;
+}
+.bar3{
+    width: 55px;
+    height: 140px;
+    background-color:hsl(186, 34%, 60%);
+    border-radius: 11px;
+    margin-top: -5rem;
+}
+.bar4{
+    width: 55px;
+    height: 100px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 11px;
+    margin-top: -2.6rem;
+}
+.bar5{
+    width: 55px;
+    height: 75px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 11px;
+    margin-top: -1rem;
+}
+.bar6{
+    width: 55px;
+    height: 120px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 11px;
+    margin-top: -3.8rem;
+}
+.bar7{
+    width: 55px;
+    height: 100px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 11px;
+    margin-top: -2.6rem;
+}
+.all-bars{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+}
+.cont p{
+    text-align: center;
+    margin-top: 10px;
+    color: hsl(28, 10%, 53%);
+}
+.line{
+    background-color: hsl(10, 79%, 65%);
+    width: 27rem;
+    height: 1px;
+    margin:2rem auto;
+}
+.both-total{
+    display: flex;
+    justify-content: space-around;
+}
+.tt{
+    color: hsl(28, 10%, 53%);
+    font-size: 1.4rem;
+}
+.money{
+    color: hsl(25, 47%, 15%);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.pe{
+    color: hsl(28, 10%, 53%);
+}
+.fr{
+    color: hsl(25, 47%, 15%);
+    font-size: 1.2rem;
+}
+.percent{
+    margin-top: 2rem;
+}
